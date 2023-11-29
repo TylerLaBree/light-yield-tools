@@ -42,7 +42,6 @@ class LightYieldMap {
       title = Form("Light Yield Average On {%c | %.2f < %c < %.2f m};%c [m];%c [m]; Light Yield [PE/MeV]"
           , dirNames[normDir], lib->GetPosInM(normDir,Double_t(normBoundsInVx[0])), dirNames[normDir]
           , lib->GetPosInM(normDir,Double_t(normBoundsInVx[1])), dirNames[mapDirs[1]], dirNames[mapDirs[0]]);
-      return 0;
     }
 
     // Find and set the two directions of the light yield map.

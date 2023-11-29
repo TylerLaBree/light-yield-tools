@@ -18,7 +18,7 @@ void MakePlotVD() {
 
   Int_t dims[3] = {50,93,137};
   PhotonLibrary* lib = new PhotonLibrary(
-    "lib_dunevd10kt_1x8x14_3_20221025.root"
+    "../photon-libraries/lib_dunevd10kt_1x8x14_3_20221025.root"
     , dims
     , simulatedBoundsInM
     , fiducialBoundsInM);

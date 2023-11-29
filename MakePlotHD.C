@@ -26,7 +26,7 @@ void MakePlotHD() {
   };
   Int_t dims[3] = {75,180,200};
   PhotonLibrary* lib = new PhotonLibrary(
-    "lib_dunehd10kt_1x2x6_20230403.root"
+    "../photon-libraries/lib_dunehd10kt_1x2x6_20230403.root"
     , dims
     , simulatedBoundsInM
     , fiducialBoundsInM);
